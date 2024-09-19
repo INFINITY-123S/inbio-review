@@ -1,0 +1,63 @@
+/*-------------------------
+    Portfolio Area 
+---------------------------*/
+
+
+.mesonry-list {
+    margin: 0 -22px;
+    .masonry_item {
+        .portfolio-static {
+            padding: 0 22px;
+        }
+    }
+    &.grid-metro3 {
+        .resizer {
+            width: 33.33%;
+            @media #{$md-layout} {
+                width: 50%;
+            }
+            @media #{$sm-layout} {
+                width: 50%;
+            }
+            @media #{$large-mobile} {
+                width: 100%;
+            }
+        }
+        .portfolio-33-33 {
+            width: 33.33%;
+            @media #{$md-layout} {
+                width: 50%;
+            }
+            @media #{$sm-layout} {
+                width: 50%;
+            }
+            @media #{$large-mobile} {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Slick Gutter Space  */
+.slick-space-gutter--15 {
+    margin-left: -15px;
+    margin-right: -15px;
+    .slick-slide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .portfolio,
+    .single_im_portfolio {
+        margin: 50px 0;
+    }
+}
+.slickdot--20 {
+    .slick-dots { 
+        bottom: -20px;
+    }
+}
+.row--5 {
+    .portfolio-style--3 {
+        margin-bottom: 10px;
+    }
+}
